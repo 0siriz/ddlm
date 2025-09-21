@@ -96,7 +96,7 @@ impl<'a> LoginManager<'a> {
             mode: Mode::EditingUsername,
             greetd,
             targets,
-            target_index: 1, // TODO: remember last user selection
+            target_index: 0, // TODO: remember last user selection
             var_screen_info: &fb.var_screen_info,
             should_refresh: false,
         }
